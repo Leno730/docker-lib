@@ -26,6 +26,7 @@ Dockerfile的内容如下：
 
    在第一次新建时，他会要求你关联github（上图显示的是我已经关联github帐号的页面），你直接输入github帐号密码关联即可。
    在你选择了![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/6.png)后，就会进入如下页面，要求你选择你在github里面刚新建的项目：
+
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/7.png)
      
 ### 4.接下来就要配置你的镜像仓库了
