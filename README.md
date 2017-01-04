@@ -25,27 +25,27 @@
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/5.png) 
 
    在第一次新建时，他会要求你关联`github`（上图显示的是我已经关联`github`帐号的页面），你直接输入`github`帐号密码关联即可。
-   在你选择了![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/6.png)后，就会进入如下页面，要求你选择你在github里面刚新建的项目：
+   在你选择了![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/6.png)后，就会进入如下页面，要求你选择你在`github`里面刚新建的项目：
 
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/7.png)
      
-### 4.接下来就要配置你的镜像仓库了
+### 4.接下来就要配置你的`镜像仓库`了
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/8.png)
      建好后如下图
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/9.png)
 
-### 5.镜像库配置好后，我么就要选择进行编译了（因为此时我们的Dockerfile还没有执行，此时，你点击上图中的![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/10.png),你会发现并没有镜像文件）
+### 5.`镜像库`配置好后，我么就要选择进行编译了（因为此时我们的`Dockerfile`还没有执行，此时，你点击上图中的![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/10.png),你会发现并没有镜像文件）
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/11.png) 
 
 ### 6.按上述操作，你就编译完成了，你可以在![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/12.png)查看当前的一个编译状态，并且可以在![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/10.png)中查看编译后的镜像版本
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/13.png)
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/14.png)
      
-### 7.执行完上面所有的动作，你就可以去docker服务器里面下载这个镜像了
+### 7.执行完上面所有的动作，你就可以去`docker`服务器里面下载这个镜像了
  ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/15.png)    
      只是下载会比较慢，但是比直接timeout要好很多呀。
 
-#### PS：据说DAOCloud会3小时同步一次docker hub的镜像文件到他自己的镜像库，不知道会不会同步我上传的这个，如果会，那下载就更快了（因为DAOCloud镜像库服务器在国内），这个有待验证。
+#### PS：据说`DAOCloud`会3小时同步一次`docker hub`的镜像文件到他自己的镜像库，不知道会不会同步我上传的这个，如果会，那下载就更快了（因为`DAOCloud`镜像库服务器在国内），这个有待验证。
      
 
 
