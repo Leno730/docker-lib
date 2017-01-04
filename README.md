@@ -13,11 +13,13 @@
 
 
 ### 2.建好项目后，我们就要开始新建Dockerfile(不知道Dockerfile作用的，请查阅docker的基础知识)
-     建Dockerfile的目的，就是为了使用dockerfile里面的from语法的作用，来借用github服务器新建我需要的镜像
-     
-    上图，先建立文件夹再建立文件，是为了方便我们后面区分镜像包
-     Dockerfile的内容如下：
-     
+
+建Dockerfile的目的，就是为了使用dockerfile里面的from语法的作用，来借用github服务器新建我需要的镜像
+![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/2.png)
+
+上图，先建立文件夹再建立文件，是为了方便我们后面区分镜像包
+Dockerfile的内容如下：
+![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/3.png)
 
 ### 3.到这里，我们github这边就都准备好了，接下来，就要登陆到docker hub，然后选择，具体如下：
      
