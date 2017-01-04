@@ -1,30 +1,30 @@
 # CONFIG DOCKER AUTOMATED BUILD WITH GITHUB
 ## 前提：
-     有些镜像可能因为墙的问题，不能访问，那我们需要，但是又下载不了，这时候就很坑爹了。针对这种情况，我们有如下两种方案解决：
-     1.通过代理下载，我们可以安装squid代理（不熟悉，不研究）
-     2.借助github下载
-     下面我们详细说下第二种的实现方法
+   有些镜像可能因为墙的问题，不能访问，那我们需要，但是又下载不了，这时候就很坑爹了。针对这种情况，我们有如下两种方案解决：
+####   1.通过代理下载，我们可以安装`squid`代理（不熟悉，不研究）
+####   2.借助`github`下载
+   下面我们详细说下第二种的实现方法
 
-#### 注：首先你得有github和docker hub的ID
+#### 注：首先你得有`github`和`docker hub`的ID
 
 ## 实现：
-### 1.登陆到github上面，新建一个项目，如下图操作：
+### 1.登陆到`github`上面，新建一个项目，如下图操作：
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/1.png)
 
 
-### 2.建好项目后，我们就要开始新建Dockerfile(不知道Dockerfile作用的，请查阅docker的基础知识)
+### 2.建好项目后，我们就要开始新建`Dockerfile`(不知道`Dockerfile`作用的，请查阅`docker`的基础知识)
 
-建Dockerfile的目的，就是为了使用dockerfile里面的from语法的作用，来借用github服务器新建我需要的镜像
+建`Dockerfile`的目的，就是为了使用`dockerfile`里面的from语法的作用，来借用`github`服务器新建我需要的镜像
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/2.png)
 
 上图，先建立文件夹再建立文件，是为了方便我们后面区分镜像包
-Dockerfile的内容如下：
+`Dockerfile`的内容如下：
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/3.png)
 
-### 3.到这里，我们github这边就都准备好了，接下来，就要登陆到docker hub，然后选择![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/4.png)，具体如下：
+### 3.到这里，我们`github`这边就都准备好了，接下来，就要登陆到`docker hub`，然后选择![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/4.png)，具体如下：
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/5.png) 
 
-   在第一次新建时，他会要求你关联github（上图显示的是我已经关联github帐号的页面），你直接输入github帐号密码关联即可。
+   在第一次新建时，他会要求你关联`github`（上图显示的是我已经关联`github`帐号的页面），你直接输入`github`帐号密码关联即可。
    在你选择了![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/6.png)后，就会进入如下页面，要求你选择你在github里面刚新建的项目：
 
 ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/7.png)
