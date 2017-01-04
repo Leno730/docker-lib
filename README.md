@@ -9,7 +9,8 @@
 
 ## 实现：
 ### 1.登陆到github上面，新建一个项目，如下图操作：
-     
+![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/1.png)
+
 
 ### 2.建好项目后，我们就要开始新建Dockerfile(不知道Dockerfile作用的，请查阅docker的基础知识)
      建Dockerfile的目的，就是为了使用dockerfile里面的from语法的作用，来借用github服务器新建我需要的镜像
