@@ -5,7 +5,7 @@
      2.借助github下载
      下面我们详细说下第二种的实现方法
 
-注：首先你得有github和docker hub的ID
+#### 注：首先你得有github和docker hub的ID
 
 ## 实现：
 ### 1.登陆到github上面，新建一个项目，如下图操作：
