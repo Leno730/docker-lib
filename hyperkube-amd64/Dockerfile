@@ -1,2 +1,2 @@
-FROM gcr.io/google_containers/hyperkube:v1.0.1
+FROM gcr.io/google_containers/hyperkube-amd64:v1.5.1
 MAINTAINER leno730
