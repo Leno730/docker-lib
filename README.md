@@ -45,7 +45,6 @@
  ![image](https://raw.githubusercontent.com/Leno730/docker-lib/master/images/15.png)    
      只是下载会比较慢，但是比直接timeout要好很多呀。
 
-#### PS：据说`DAOCloud`会3小时同步一次`docker hub`的镜像文件到他自己的镜像库，不知道会不会同步我上传的这个，如果会，那下载就更快了（因为`DAOCloud`镜像库服务器在国内），这个有待验证。
      
 
 
